@@ -73,7 +73,7 @@ rul-domain-adaptation/
 │   ├── Baseline/
 │   ├── OCS-DANN/
 │   └── ...
-├── source
+└── source
     ├── model.py                       # Model architectures
     ├── dataloader.py                  # SequenceDataset and DataLoaders
     ├── utils.py                       # Loss functions (RMSE, NASA) & Helper functions
