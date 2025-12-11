@@ -73,13 +73,14 @@ rul-domain-adaptation/
 │   ├── Baseline/
 │   ├── OCS-DANN/
 │   └── ...
-├── model.py                       # Model architectures
-├── dataloader.py                  # SequenceDataset and DataLoaders
-├── utils.py                       # Loss functions (RMSE, NASA) & Helper functions
-├── train_baseline.py              # Lower Bound (Source Only)
-├── train_DANN.py                  # Standard DANN 
-├── train_DANN-OCS.py              # OCS-DANN (soft) 
-├── train_DANN-OCS_hard.py         # OCS-DANN (hard) 
+├── source
+    ├── model.py                       # Model architectures
+    ├── dataloader.py                  # SequenceDataset and DataLoaders
+    ├── utils.py                       # Loss functions (RMSE, NASA) & Helper functions
+    ├── train_baseline.py              # Lower Bound (Source Only)
+    ├── train_DANN.py                  # Standard DANN 
+    ├── train_DANN-OCS.py              # OCS-DANN (soft) 
+    └── train_DANN-OCS_hard.py         # OCS-DANN (hard) 
 
 ```
 
